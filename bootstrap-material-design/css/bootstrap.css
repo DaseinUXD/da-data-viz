@@ -2832,7 +2832,7 @@ fieldset[disabled] a.btn {
 }
 
 .btn-link:focus, .btn-link:hover {
-	color: #014c8c;
+	color: #008B94;
 	text-decoration: underline;
 	background-color: transparent;
 }
@@ -3666,6 +3666,7 @@ input[type="button"].btn-block {
 
 .nav-pills .nav-item {
 	float: left;
+
 }
 
 .nav-pills .nav-item + .nav-item {
@@ -3674,8 +3675,8 @@ input[type="button"].btn-block {
 
 .nav-pills .nav-link {
 	display: block;
-	padding: 0.5em 1em;
-	border-radius: 0.25rem;
+	padding: 0.5em 1em; !important
+	border-radius: 0.25rem; !important
 }
 
 .nav-pills .nav-link.active, .nav-pills .nav-link.active:focus, .nav-pills .nav-link.active:hover,

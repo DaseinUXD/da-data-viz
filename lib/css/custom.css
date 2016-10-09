@@ -4129,3 +4129,72 @@ ul.notifications {
 	border: 1px solid #e5e5e5; }
 
 /** /Dropzone.js **/
+
+/** da-data-viz controls **/
+.question_list {
+
+
+}
+fieldset {
+		display: block;
+		margin-left: 2px;
+		margin-right: 2px;
+		padding-top: 0.35em;
+		padding-bottom: 0.625em;
+		padding-left: 0.75em;
+		padding-right: 0.75em;
+		border: 1px solid #8E1E3A;
+}
+
+.custom-control-input:checked ~ .custom-control-indicator {
+		color: #fff;
+		background-color: #008B94;
+		-webkit-box-shadow: none;
+						box-shadow: none;
+}
+
+.custom-control-input:focus ~ .custom-control-indicator {
+	-webkit-box-shadow: 0 0 0 0.075rem #fff, 0 0 0 0.2rem #008B94;
+					box-shadow: 0 0 0 0.075rem #fff, 0 0 0 0.2rem #008B94;
+}
+
+.custom-control-input:active ~ .custom-control-indicator {
+		color: #fff;
+		background-color: #0d6d5b;
+		-webkit-box-shadow: none;
+						box-shadow: none; }
+
+span .tooltip {
+	border-radius: 10px;
+	border: 1px solid #ffffff;
+
+}
+
+#btn-group-timeframe {
+	clear: both;
+	margin-left: 0.3em;
+
+	padding-bottom: 0.2em;
+
+}
+label.btn-timeframe {
+	padding-bottom: 8px;
+}
+
+legend {
+	color: #8E1E3A;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+}
+.panel-collapse .nav-pills .nav-link.active, .nav-pills .nav-link.active:focus, .nav-pills .nav-link.active:hover,
+.nav-pills .nav-item.open .nav-link,
+.nav-pills .nav-item.open .nav-link:focus,
+.nav-pills .nav-item.open .nav-link:hover {
+	color: #fff;
+	cursor: default;
+	background-color: #008B94;
+	border-radius: 0.3em;
+}
+
+/** /da-data-viz controls **/
