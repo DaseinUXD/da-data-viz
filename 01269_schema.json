@@ -1,0 +1,21 @@
+{
+	"$group[year](yr)": {
+		"id": "yr",
+		"name": "year",
+		"$group[month](mn)": {
+			"id": "month",
+			"name": "month",
+			"$group[week](wk)": {
+				"id": "wk",
+				"name": "week",
+				"$group[day](dy)": {
+					"id": "dy",
+					"name": "day",
+					"$group[questions]": {
+						"id":
+					}
+				}
+			}
+		}
+	}
+}
