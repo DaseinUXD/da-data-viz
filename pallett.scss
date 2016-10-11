@@ -1,0 +1,632 @@
+EFDF0E/* For use in _color-definitions.scss */
+
+$palette-teal:
+
+rgb(158, 247, 255)
+
+rgb(82, 241, 255)
+
+rgb(26, 236, 255)
+
+rgb(0, 192, 209)
+
+rgb(0, 164, 179)
+
+rgb(0, 136, 148)
+
+rgb(0, 108, 117)
+
+rgb(0, 80, 87)
+
+rgb(0, 52, 56)
+
+rgb(0, 23, 26)
+
+rgb(158, 247, 255)
+
+rgb(82, 241, 255)
+
+rgb(0, 164, 179)
+
+rgb(0, 80, 87)
+
+;
+
+
+$palette-teal-50: nth($palette-teal, 1);
+
+$palette-teal-100: nth($palette-teal, 2);
+
+$palette-teal-200: nth($palette-teal, 3);
+
+$palette-teal-300: nth($palette-teal, 4);
+
+$palette-teal-400: nth($palette-teal, 5);
+
+$palette-teal-500: nth($palette-teal, 6);
+
+$palette-teal-600: nth($palette-teal, 7);
+
+$palette-teal-700: nth($palette-teal, 8);
+
+$palette-teal-800: nth($palette-teal, 9);
+
+$palette-teal-900: nth($palette-teal, 10);
+
+$palette-teal-A100: nth($palette-teal, 11);
+
+$palette-teal-A200: nth($palette-teal, 12);
+
+$palette-teal-A400: nth($palette-teal, 13);
+
+$palette-teal-A700: nth($palette-teal, 14);
+
+
+
+$palette-lime:
+
+rgb(255, 255, 254)
+
+rgb(235, 238, 194)
+
+rgb(221, 226, 151)
+
+rgb(202, 211, 95)
+
+rgb(194, 204, 71)
+
+rgb(181, 191, 53)
+
+rgb(158, 167, 46)
+
+rgb(136, 143, 40)
+
+rgb(113, 119, 33)
+
+rgb(90, 95, 26)
+
+rgb(255, 255, 254)
+
+rgb(235, 238, 194)
+
+rgb(194, 204, 71)
+
+rgb(136, 143, 40)
+
+;
+
+
+$palette-lime-50: nth($palette-lime, 1);
+
+$palette-lime-100: nth($palette-lime, 2);
+
+$palette-lime-200: nth($palette-lime, 3);
+
+$palette-lime-300: nth($palette-lime, 4);
+
+$palette-lime-400: nth($palette-lime, 5);
+
+$palette-lime-500: nth($palette-lime, 6);
+
+$palette-lime-600: nth($palette-lime, 7);
+
+$palette-lime-700: nth($palette-lime, 8);
+
+$palette-lime-800: nth($palette-lime, 9);
+
+$palette-lime-900: nth($palette-lime, 10);
+
+$palette-lime-A100: nth($palette-lime, 11);
+
+$palette-lime-A200: nth($palette-lime, 12);
+
+$palette-lime-A400: nth($palette-lime, 13);
+
+$palette-lime-A700: nth($palette-lime, 14);
+
+
+
+$palette-lightgray:
+
+rgb(255, 255, 255)
+
+rgb(255, 255, 255)
+
+rgb(255, 255, 255)
+
+rgb(255, 255, 255)
+
+rgb(255, 255, 255)
+
+rgb(239, 239, 240)
+
+rgb(223, 223, 225)
+
+rgb(207, 207, 210)
+
+rgb(192, 192, 196)
+
+rgb(176, 176, 181)
+
+rgb(255, 255, 255)
+
+rgb(255, 255, 255)
+
+rgb(255, 255, 255)
+
+rgb(207, 207, 210)
+
+;
+
+
+$palette-lightgray-50: nth($palette-lightgray, 1);
+
+$palette-lightgray-100: nth($palette-lightgray, 2);
+
+$palette-lightgray-200: nth($palette-lightgray, 3);
+
+$palette-lightgray-300: nth($palette-lightgray, 4);
+
+$palette-lightgray-400: nth($palette-lightgray, 5);
+
+$palette-lightgray-500: nth($palette-lightgray, 6);
+
+$palette-lightgray-600: nth($palette-lightgray, 7);
+
+$palette-lightgray-700: nth($palette-lightgray, 8);
+
+$palette-lightgray-800: nth($palette-lightgray, 9);
+
+$palette-lightgray-900: nth($palette-lightgray, 10);
+
+$palette-lightgray-A100: nth($palette-lightgray, 11);
+
+$palette-lightgray-A200: nth($palette-lightgray, 12);
+
+$palette-lightgray-A400: nth($palette-lightgray, 13);
+
+$palette-lightgray-A700: nth($palette-lightgray, 14);
+
+
+
+$palette-darkgray:
+
+rgb(253, 253, 253)
+
+rgb(215, 214, 215)
+
+rgb(187, 186, 188)
+
+rgb(151, 150, 152)
+
+rgb(135, 134, 137)
+
+rgb(120, 119, 122)
+
+rgb(105, 104, 106)
+
+rgb(90, 89, 91)
+
+rgb(74, 74, 76)
+
+rgb(59, 59, 60)
+
+rgb(253, 253, 253)
+
+rgb(215, 214, 215)
+
+rgb(135, 134, 137)
+
+rgb(90, 89, 91)
+
+;
+
+
+$palette-darkgray-50: nth($palette-darkgray, 1);
+
+$palette-darkgray-100: nth($palette-darkgray, 2);
+
+$palette-darkgray-200: nth($palette-darkgray, 3);
+
+$palette-darkgray-300: nth($palette-darkgray, 4);
+
+$palette-darkgray-400: nth($palette-darkgray, 5);
+
+$palette-darkgray-500: nth($palette-darkgray, 6);
+
+$palette-darkgray-600: nth($palette-darkgray, 7);
+
+$palette-darkgray-700: nth($palette-darkgray, 8);
+
+$palette-darkgray-800: nth($palette-darkgray, 9);
+
+$palette-darkgray-900: nth($palette-darkgray, 10);
+
+$palette-darkgray-A100: nth($palette-darkgray, 11);
+
+$palette-darkgray-A200: nth($palette-darkgray, 12);
+
+$palette-darkgray-A400: nth($palette-darkgray, 13);
+
+$palette-darkgray-A700: nth($palette-darkgray, 14);
+
+
+
+$palette-pink:
+
+rgb(255, 255, 255)
+
+rgb(245, 190, 205)
+
+rgb(237, 141, 168)
+
+rgb(228, 79, 121)
+
+rgb(224, 53, 100)
+
+rgb(213, 33, 83)
+
+rgb(186, 29, 73)
+
+rgb(160, 25, 62)
+
+rgb(133, 21, 52)
+
+rgb(107, 17, 42)
+
+rgb(255, 255, 255)
+
+rgb(245, 190, 205)
+
+rgb(224, 53, 100)
+
+rgb(160, 25, 62)
+
+;
+
+
+$palette-pink-50: nth($palette-pink, 1);
+
+$palette-pink-100: nth($palette-pink, 2);
+
+$palette-pink-200: nth($palette-pink, 3);
+
+$palette-pink-300: nth($palette-pink, 4);
+
+$palette-pink-400: nth($palette-pink, 5);
+
+$palette-pink-500: nth($palette-pink, 6);
+
+$palette-pink-600: nth($palette-pink, 7);
+
+$palette-pink-700: nth($palette-pink, 8);
+
+$palette-pink-800: nth($palette-pink, 9);
+
+$palette-pink-900: nth($palette-pink, 10);
+
+$palette-pink-A100: nth($palette-pink, 11);
+
+$palette-pink-A200: nth($palette-pink, 12);
+
+$palette-pink-A400: nth($palette-pink, 13);
+
+$palette-pink-A700: nth($palette-pink, 14);
+
+
+
+$palette-crimson:
+
+rgb(244, 188, 203)
+
+rgb(233, 123, 152)
+
+rgb(225, 75, 115)
+
+rgb(195, 33, 77)
+
+rgb(169, 28, 66)
+
+rgb(143, 24, 56)
+
+rgb(117, 20, 46)
+
+rgb(91, 15, 35)
+
+rgb(64, 11, 25)
+
+rgb(38, 6, 15)
+
+rgb(244, 188, 203)
+
+rgb(233, 123, 152)
+
+rgb(169, 28, 66)
+
+rgb(91, 15, 35)
+
+;
+
+
+$palette-crimson-50: nth($palette-crimson, 1);
+
+$palette-crimson-100: nth($palette-crimson, 2);
+
+$palette-crimson-200: nth($palette-crimson, 3);
+
+$palette-crimson-300: nth($palette-crimson, 4);
+
+$palette-crimson-400: nth($palette-crimson, 5);
+
+$palette-crimson-500: nth($palette-crimson, 6);
+
+$palette-crimson-600: nth($palette-crimson, 7);
+
+$palette-crimson-700: nth($palette-crimson, 8);
+
+$palette-crimson-800: nth($palette-crimson, 9);
+
+$palette-crimson-900: nth($palette-crimson, 10);
+
+$palette-crimson-A100: nth($palette-crimson, 11);
+
+$palette-crimson-A200: nth($palette-crimson, 12);
+
+$palette-crimson-A400: nth($palette-crimson, 13);
+
+$palette-crimson-A700: nth($palette-crimson, 14);
+
+
+
+$palette-purple:
+
+rgb(244, 224, 242)
+
+rgb(224, 168, 219)
+
+rgb(209, 126, 202)
+
+rgb(191, 73, 180)
+
+rgb(173, 61, 162)
+
+rgb(150, 53, 141)
+
+rgb(127, 45, 120)
+
+rgb(105, 37, 98)
+
+rgb(82, 29, 77)
+
+rgb(60, 21, 56)
+
+rgb(244, 224, 242)
+
+rgb(224, 168, 219)
+
+rgb(173, 61, 162)
+
+rgb(105, 37, 98)
+
+;
+
+
+$palette-purple-50: nth($palette-purple, 1);
+
+$palette-purple-100: nth($palette-purple, 2);
+
+$palette-purple-200: nth($palette-purple, 3);
+
+$palette-purple-300: nth($palette-purple, 4);
+
+$palette-purple-400: nth($palette-purple, 5);
+
+$palette-purple-500: nth($palette-purple, 6);
+
+$palette-purple-600: nth($palette-purple, 7);
+
+$palette-purple-700: nth($palette-purple, 8);
+
+$palette-purple-800: nth($palette-purple, 9);
+
+$palette-purple-900: nth($palette-purple, 10);
+
+$palette-purple-A100: nth($palette-purple, 11);
+
+$palette-purple-A200: nth($palette-purple, 12);
+
+$palette-purple-A400: nth($palette-purple, 13);
+
+$palette-purple-A700: nth($palette-purple, 14);
+
+
+
+$palette-darkorange:
+
+rgb(255, 255, 255)
+
+rgb(249, 217, 206)
+
+rgb(244, 178, 156)
+
+rgb(236, 128, 92)
+
+rgb(233, 106, 64)
+
+rgb(230, 85, 37)
+
+rgb(212, 71, 24)
+
+rgb(185, 62, 21)
+
+rgb(157, 53, 18)
+
+rgb(130, 43, 15)
+
+rgb(255, 255, 255)
+
+rgb(249, 217, 206)
+
+rgb(233, 106, 64)
+
+rgb(185, 62, 21)
+
+;
+
+
+$palette-darkorange-50: nth($palette-darkorange, 1);
+
+$palette-darkorange-100: nth($palette-darkorange, 2);
+
+$palette-darkorange-200: nth($palette-darkorange, 3);
+
+$palette-darkorange-300: nth($palette-darkorange, 4);
+
+$palette-darkorange-400: nth($palette-darkorange, 5);
+
+$palette-darkorange-500: nth($palette-darkorange, 6);
+
+$palette-darkorange-600: nth($palette-darkorange, 7);
+
+$palette-darkorange-700: nth($palette-darkorange, 8);
+
+$palette-darkorange-800: nth($palette-darkorange, 9);
+
+$palette-darkorange-900: nth($palette-darkorange, 10);
+
+$palette-darkorange-A100: nth($palette-darkorange, 11);
+
+$palette-darkorange-A200: nth($palette-darkorange, 12);
+
+$palette-darkorange-A400: nth($palette-darkorange, 13);
+
+$palette-darkorange-A700: nth($palette-darkorange, 14);
+
+
+
+$palette-lightorange:
+
+rgb(255, 255, 255)
+
+rgb(252, 232, 210)
+
+rgb(249, 204, 158)
+
+rgb(245, 169, 91)
+
+rgb(243, 154, 62)
+
+rgb(241, 139, 33)
+
+rgb(229, 124, 14)
+
+rgb(200, 108, 13)
+
+rgb(171, 93, 11)
+
+rgb(143, 77, 9)
+
+rgb(255, 255, 255)
+
+rgb(252, 232, 210)
+
+rgb(243, 154, 62)
+
+rgb(200, 108, 13)
+
+;
+
+
+$palette-lightorange-50: nth($palette-lightorange, 1);
+
+$palette-lightorange-100: nth($palette-lightorange, 2);
+
+$palette-lightorange-200: nth($palette-lightorange, 3);
+
+$palette-lightorange-300: nth($palette-lightorange, 4);
+
+$palette-lightorange-400: nth($palette-lightorange, 5);
+
+$palette-lightorange-500: nth($palette-lightorange, 6);
+
+$palette-lightorange-600: nth($palette-lightorange, 7);
+
+$palette-lightorange-700: nth($palette-lightorange, 8);
+
+$palette-lightorange-800: nth($palette-lightorange, 9);
+
+$palette-lightorange-900: nth($palette-lightorange, 10);
+
+$palette-lightorange-A100: nth($palette-lightorange, 11);
+
+$palette-lightorange-A200: nth($palette-lightorange, 12);
+
+$palette-lightorange-A400: nth($palette-lightorange, 13);
+
+$palette-lightorange-A700: nth($palette-lightorange, 14);
+
+
+
+$palette-yellow:
+
+rgb(255, 255, 255)
+
+rgb(251, 247, 190)
+
+rgb(248, 240, 137)
+
+rgb(244, 232, 70)
+
+rgb(242, 228, 41)
+
+rgb(239, 223, 14)
+
+rgb(210, 196, 12)
+
+rgb(181, 169, 11)
+
+rgb(152, 142, 9)
+
+rgb(123, 115, 7)
+
+rgb(255, 255, 255)
+
+rgb(251, 247, 190)
+
+rgb(242, 228, 41)
+
+rgb(181, 169, 11)
+
+;
+
+
+$palette-yellow-50: nth($palette-yellow, 1);
+
+$palette-yellow-100: nth($palette-yellow, 2);
+
+$palette-yellow-200: nth($palette-yellow, 3);
+
+$palette-yellow-300: nth($palette-yellow, 4);
+
+$palette-yellow-400: nth($palette-yellow, 5);
+
+$palette-yellow-500: nth($palette-yellow, 6);
+
+$palette-yellow-600: nth($palette-yellow, 7);
+
+$palette-yellow-700: nth($palette-yellow, 8);
+
+$palette-yellow-800: nth($palette-yellow, 9);
+
+$palette-yellow-900: nth($palette-yellow, 10);
+
+$palette-yellow-A100: nth($palette-yellow, 11);
+
+$palette-yellow-A200: nth($palette-yellow, 12);
+
+$palette-yellow-A400: nth($palette-yellow, 13);
+
+$palette-yellow-A700: nth($palette-yellow, 14);
+
+
+

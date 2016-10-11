@@ -1,0 +1,23 @@
+{
+  "name": "da-data-viz",
+  "version": "1.0.0",
+  "description": "Collection of data visualization methods. ",
+  "main": "cgi-node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaseinUXD/da-data-viz.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "datavisualization"
+  ],
+  "author": "Mark W. Matthews",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DaseinUXD/da-data-viz/issues"
+  },
+  "homepage": "https://github.com/DaseinUXD/da-data-viz#readme"
+}

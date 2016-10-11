@@ -1,5 +1,5 @@
 var questionSet = [
-		['index', 'q_ID', 'q_Text', 'q_Short'],
+		['q_ndx', 'q_ID', 'q_Text', 'q_Short'],
 		[0, 1275007, 'Reservations - Friendly', 'RES01'],
 		[1, 1275008, 'Reservations - Efficient', 'RES02'],
 		[2, 1275009, 'Reservations - Knowledgable', 'RES03'],
