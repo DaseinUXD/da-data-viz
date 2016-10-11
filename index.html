@@ -94,17 +94,17 @@
 															<div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
 																<div class="custom-controls-stacked">
 																	<label class="custom-control custom-checkbox">
-																		<input type="checkbox" class="custom-control-input" id="cb_1275007">
+																		<input type="checkbox" class="custom-control-input" id="ckbx_07">
 																		<span class="custom-control-indicator"></span>
 																		<span class="custom-control-description" data-toggle="tooltip" data-placement="right" title="1275007">Friendly</span>
 																	</label>
 																	<label class="custom-control custom-checkbox">
-																		<input type="checkbox" class="custom-control-input">
+																		<input type="checkbox" class="custom-control-input" id="ckbx_08">
 																		<span class="custom-control-indicator"></span>
 																		<span class="custom-control-description" data-toggle="tooltip" data-placement="right" title="1275008">Efficient</span>
 																	</label>
 																	<label class="custom-control custom-checkbox">
-																		<input type="checkbox" class="custom-control-input">
+																		<input type="checkbox" class="custom-control-input"  id="ckbx_09">
 																		<span class="custom-control-indicator"></span>
 																		<span class="custom-control-description" data-toggle="tooltip" data-placement="right" title="1275009">Knowledgable</span>
 																	</label>
@@ -122,12 +122,12 @@
 															<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 																<div class="custom-controls-stacked">
 																	<label class="custom-control custom-checkbox">
-																		<input type="checkbox" class="custom-control-input">
+																		<input type="checkbox" class="custom-control-input" id="ckbx_10">
 																		<span class="custom-control-indicator"></span>
 																		<span class="custom-control-description" data-toggle="tooltip" data-placement="right" title="1275010">Friendly</span>
 																	</label>
 																	<label class="custom-control custom-checkbox">
-																		<input type="checkbox" class="custom-control-input">
+																		<input type="checkbox" class="custom-control-input" id="ckbx_11">
 																		<span class="custom-control-indicator"></span>
 																		<span class="custom-control-description" data-toggle="tooltip" data-placement="right" title="1275011">Efficient</span>
 																	</label>
@@ -147,19 +147,19 @@
 															<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
 																<div class="custom-controls-stacked">
 																	<label class="custom-control custom-checkbox">
-																		<input type="checkbox" class="custom-control-input">
+																		<input type="checkbox" class="custom-control-input" id="ckbx_13">
 																		<span class="custom-control-indicator"></span>
-																		<span class="custom-control-description" data-toggle="tooltip" data-placement="right" title="1275007">Appearance</span>
+																		<span class="custom-control-description" data-toggle="tooltip" data-placement="right" title="1275013">Appearance</span>
 																	</label>
 																	<label class="custom-control custom-checkbox">
-																		<input type="checkbox" class="custom-control-input">
+																		<input type="checkbox" class="custom-control-input" id="ckbx_14">
 																		<span class="custom-control-indicator"></span>
-																		<span class="custom-control-description" data-toggle="tooltip" data-placement="right" title="1275008">Furniture</span>
+																		<span class="custom-control-description" data-toggle="tooltip" data-placement="right" title="1275014">Furniture</span>
 																	</label>
 																	<label class="custom-control custom-checkbox">
-																		<input type="checkbox" class="custom-control-input">
+																		<input type="checkbox" class="custom-control-input" id="ckbx_15">
 																		<span class="custom-control-indicator"></span>
-																		<span class="custom-control-description" data-toggle="tooltip" data-placement="right" title="1275009">Properly Supplied</span>
+																		<span class="custom-control-description" data-toggle="tooltip" data-placement="right" title="1275015">Properly Supplied</span>
 																	</label>
 																</div>
 															</div>
@@ -364,7 +364,7 @@
 	<!-- MDB core JavaScript -->
 	<script type="text/javascript" src="../bootstrap-material-design/js/mdb.min.js"></script>
 	<!-- jQuery -->
-	<script src="../vendors/endors/jquery/dist/jquery.min.js"></script>
+	<script src="../vendors/jquery/dist/jquery.min.js"></script>
 	<!-- Bootstrap -->
 	<script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
 	<!-- FastClick -->
@@ -383,7 +383,12 @@
 			$('#myTab a:last').tab('show')
 		})
 	</script>
-	<script>
+<script>
+	$.getJSON('../lib/js/dataArray_01.json', function(dataSet) {
+			alert("D Load: " + dataSet.dateSet[0]);
+	});
+
+
 		var P1275007 = [0.87, 0.9, 0.94, 0.96, 0.96, 0.88, 0.9, 0.93, 0.95, 0.95, 0.98, 0.95, 0.92, 0.93, 0.92, 0.97, 0.94, 0.91, 0.94, 0.95, 0.95, 0.91, 0.98, 0.95, 0.92, 0.91, 0.94, 0.98, 0.85, 0.94, 0.91, 0.91, 0.95];
 		var P007_2014 = P1275007.slice(0, 11);
 		var P007_2015 = P1275007.slice(12, 23);
@@ -671,6 +676,7 @@
 					//						areaStyle: 'default'
 				}
 			},
+
 			data: P007_2016,
 			/* markPoint: { data: [{ name: 'sales', value: 182.2, xAxis: 7, yAxis: 183, }, { name: 'purchases', value: 2.3, xAxis: 11, yAxis: 3 }] }, */
 			//				markLine: {
@@ -694,7 +700,7 @@
 			},
 			toolbox: {
 				show: true,
-				z: 199,
+				z: 6,
 				orient: 'horizontal', // 'vertical'; 'horizontal'
 				x: 'right', // horizontal position. Defaults to center. Valid values are: 'center' | 'left' | 'right' | {number}(x-coordinate, in px).
 				y: 'top',  //  vertical position. Defaults to top. Valid values are: 'top' | 'bottom' | 'center' | {number}(y-coordinate, in px).
@@ -751,13 +757,14 @@
 					}
 				}
 			},
+			calculable: true,
 			dataZoom: {
 				show: false,
 				realtime: true,
 				start: 0,
 				end: 100
 			},
-			calculable: true,
+
 			xAxis: [{
 				type: 'category',
 				data: months
@@ -767,6 +774,7 @@
 				}],
 			series: series
 		};
+
 		var cc_3066 = echarts.init(document.getElementById('cc_3066'), theme);
 		cc_3066.setOption(option1);
 	</script>

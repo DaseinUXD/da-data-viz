@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Digital Alchemy | Graph Widget</title>
+      <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+      <style>
+	      .chartWrapper{width: auto; height: 300px;}
+      </style>
+   </head>
+   <body>
+	<section id='chartHolder'></section>
+      <script src="js/jquery.min.js"></script>
+      <script src="js/ChartWidget-min.js"></script>
+      <script>
+	      (function($) {
+				var chartOptions = {
+									type		: 'line', // line | bar | pie | doughnut | radar | polarArea
+							    	container	: $('#chartHolder'),
+							    	data 		: 'chartData.json',
+							    	heading		: 'My Chart Heading',
+									height		: 300,
+									id			: 'chartCanvas',
+									title		: 'My Chart Title',
+									width		: 800,
+									embedded	: false
+								};
+				DA.startChartWidget(chartOptions);
+	      }(jQuery));
+      </script>
+   </body>
+</html>
