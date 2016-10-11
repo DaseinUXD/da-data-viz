@@ -1,25 +1,112 @@
-var questionSet = [
-		['q_ndx', 'q_ID', 'q_Text', 'q_Short'],
-		[0, 1275007, 'Reservations - Friendly', 'RES01'],
-		[1, 1275008, 'Reservations - Efficient', 'RES02'],
-		[2, 1275009, 'Reservations - Knowledgable', 'RES03'],
-		[3, 1275010, 'Front Desk - Friendly', 'FD01'],
-		[4, 1275011, 'Front Desk - Efficient', 'FD02'],
-		[5, 1275012, 'Guest Rooms - Appearance', 'GR01'],
-		[6, 1275013, 'Guest Rooms - Cleanliness', 'GR02'],
-		[7, 1275014, 'Guest Rooms - Furniture', 'GR03'],
-		[8, 1275015, 'Guest Rooms - Properly Supplied', 'GR04'],
-		[9, 1275016, 'Dining - Breakfast - Food Quality', 'DIN01'],
-		[10, 1275017, 'Dining - Breakfast - Prompt Service', 'DIN02'],
-		[11, 1275018, 'Dining - Breakfast - Knowledgeable Service:', 'DIN03'],
-		[12, 1275019, 'Dining - Breakfast - Menu Variety', 'DIN04'],
-		[13, 1275020, 'Dining - Breakfast - Value for price paid', 'DIN05'],
-		[14, 1275021, 'Dining - Dinner - Food Quality', 'DIN06'],
-		[15, 1275022, 'Dining - Dinner - Prompt Service:', 'DIN07'],
-		[16, 1275023, 'Dining - Dinner - Knowledgeable Service', 'DIN08'],
-		[17, 1275024, 'Dining - Dinner - Menu Variety', 'DIN09'],
-		[18, 1275025, 'Dining - Dinner - Value for price paid', 'DIN10'],
-		[19, 1275026, 'Dining - Dinner - Room Service', 'DIN11'],
-		[20, 1275027, 'Pool Area - Cleanliness', 'PA01'],
-		[21, 1275028, 'Pool Area - Offerings', 'PA02']
-]
+var [{
+	"q_ndx": 0,
+	"q_ID": 1275007,
+	"q_Text": "Reservations - Friendly",
+	"q_Short": "RES01"
+}, {
+	"q_ndx": 1,
+	"q_ID": 1275008,
+	"q_Text": "Reservations - Efficient",
+	"q_Short": "RES02"
+}, {
+	"q_ndx": 2,
+	"q_ID": 1275009,
+	"q_Text": "Reservations - Knowledgable",
+	"q_Short": "RES03"
+}, {
+	"q_ndx": 3,
+	"q_ID": 1275010,
+	"q_Text": "Front Desk - Friendly",
+	"q_Short": "FD01"
+}, {
+	"q_ndx": 4,
+	"q_ID": 1275011,
+	"q_Text": "Front Desk - Efficient",
+	"q_Short": "FD02"
+}, {
+	"q_ndx": 5,
+	"q_ID": 1275012,
+	"q_Text": "Guest Rooms - Appearance",
+	"q_Short": "GR01"
+}, {
+	"q_ndx": 6,
+	"q_ID": 1275013,
+	"q_Text": "Guest Rooms - Cleanliness",
+	"q_Short": "GR02"
+}, {
+	"q_ndx": 7,
+	"q_ID": 1275014,
+	"q_Text": "Guest Rooms - Furniture",
+	"q_Short": "GR03"
+}, {
+	"q_ndx": 8,
+	"q_ID": 1275015,
+	"q_Text": "Guest Rooms - Properly Supplied",
+	"q_Short": "GR04"
+}, {
+	"q_ndx": 9,
+	"q_ID": 1275016,
+	"q_Text": "Dining - Breakfast - Food Quality",
+	"q_Short": "DIN01"
+}, {
+	"q_ndx": 10,
+	"q_ID": 1275017,
+	"q_Text": "Dining - Breakfast - Prompt Service",
+	"q_Short": "DIN02"
+}, {
+	"q_ndx": 11,
+	"q_ID": 1275018,
+	"q_Text": "Dining - Breakfast - Knowledgeable Service:",
+	"q_Short": "DIN03"
+}, {
+	"q_ndx": 12,
+	"q_ID": 1275019,
+	"q_Text": "Dining - Breakfast - Menu Variety",
+	"q_Short": "DIN04"
+}, {
+	"q_ndx": 13,
+	"q_ID": 1275020,
+	"q_Text": "Dining - Breakfast - Value for price paid",
+	"q_Short": "DIN05"
+}, {
+	"q_ndx": 14,
+	"q_ID": 1275021,
+	"q_Text": "Dining - Dinner - Food Quality",
+	"q_Short": "DIN06"
+}, {
+	"q_ndx": 15,
+	"q_ID": 1275022,
+	"q_Text": "Dining - Dinner - Prompt Service:",
+	"q_Short": "DIN07"
+}, {
+	"q_ndx": 16,
+	"q_ID": 1275023,
+	"q_Text": "Dining - Dinner - Knowledgeable Service",
+	"q_Short": "DIN08"
+}, {
+	"q_ndx": 17,
+	"q_ID": 1275024,
+	"q_Text": "Dining - Dinner - Menu Variety",
+	"q_Short": "DIN09"
+}, {
+	"q_ndx": 18,
+	"q_ID": 1275025,
+	"q_Text": "Dining - Dinner - Value for price paid",
+	"q_Short": "DIN10"
+}, {
+	"q_ndx": 19,
+	"q_ID": 1275026,
+	"q_Text": "Dining - Dinner - Room Service",
+	"q_Short": "DIN11"
+}, {
+	"q_ndx": 20,
+	"q_ID": 1275027,
+	"q_Text": "Pool Area - Cleanliness",
+	"q_Short": "PA01"
+}, {
+	"q_ndx": 21,
+	"q_ID": 1275028,
+	"q_Text": "Pool Area - Offerings",
+	"q_Short": "PA02"
+}]
+

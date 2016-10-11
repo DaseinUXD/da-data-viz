@@ -91,10 +91,10 @@
 							</a>
 							</h4>
 															</div>
-															<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+															<div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
 																<div class="custom-controls-stacked">
 																	<label class="custom-control custom-checkbox">
-																		<input type="checkbox" checked class="custom-control-input">
+																		<input type="checkbox" class="custom-control-input">
 																		<span class="custom-control-indicator"></span>
 																		<span class="custom-control-description" data-toggle="tooltip" data-placement="right" title="1275007">Friendly</span>
 																	</label>
@@ -290,13 +290,13 @@
 											<fieldset>
 												<legend>Time Frame</legend>
 
-												<div id="btn-group-timeframe" class="btn-group btn-group-sm" data-toggle="buttons">
+												<div id="btn-group-timeframe" class="btn-group btn-group-md" data-toggle="buttons">
+													<label class="btn btn-primary disabled btn-timeframe">
+														<input type="radio" name="options" id="btnDay" autocomplete="off">D</label>
+													<label class="btn btn-primary disabled btn-timeframe">
+														<input type="radio" name="options" id="btnWeek" autocomplete="off">W</label>
 													<label class="btn btn-primary active btn-timeframe">
-														<input type="radio" name="options" id="btnDay" autocomplete="off">Day</label>
-													<label class="btn btn-primary btn-timeframe">
-														<input type="radio" name="options" id="btnWeek" autocomplete="off">Week</label>
-													<label class="btn btn-primary btn-timeframe">
-														<input type="radio" name="options" id="btnMonth" autocomplete="off" checked>Month</label>
+														<input type="radio" name="options" id="btnMonth" autocomplete="off" checked>M</label>
 												</div>
 
 											</fieldset>
@@ -306,19 +306,58 @@
 							</div>
 						</div>
 					</div>
+
 					<br> </div>
 
 			</div>
 
 			<hr>
 
+		</div>
+		<!-- /Main section -->
+	</main>
+	</div>
+	<!--Footer-->
+	<footer class="page-footer teal center-on-small-only">
+
+		<!--Footer Links-->
+		<div class="container-fluid">
+			<div class="row">
+
+				<!--First column-->
+				<div class="col-md-6">
+					<h5 class="title"></h5>
+					<p></p>
+				</div>
+				<!--/.First column-->
+
+				<!--Second column-->
+				<div class="col-md-6">
+					<h5 class="title"></h5>
+					<ul>
+						<li>
+							<a href="#!"></a>
+						</li>
+						<li>
+							<a href="#!"></a>
+						</li>
+						<li>
+							<a href="#!"></a>
+						</li>
+						<li>
+							<a href="#!"></a>
+						</li>
+					</ul>
+				</div>
+				<!--/.Second column-->
 			</div>
 		</div>
 		<!--/.Footer Links-->
+
 		<!--Copyright-->
 		<div class="footer-copyright">
-			<div class="container-fluid"> © 2015 Copyright: <a href="http://www.Digital-Dlchemy.com">© 2016 Digital Alchemy</a>
-				<a href="http://www.freepik.com/free-vector/hotel-white-icons-pack_753727.htm"></a>
+			<div class="container-fluid">© 2016 <a href="http://www.Digital-Dlchemy.com">Digital Alchemy, LLC</a>
+
 			</div>
 		</div>
 		<!--/.Copyright-->
@@ -334,7 +373,9 @@
 	<!-- MDB core JavaScript -->
 	<script type="text/javascript" src="../bootstrap-material-design/js/mdb.min.js"></script>
 	<!-- jQuery -->
-	<script src="../vendors/endors/jquery/dist/jquery.min.js"></script>
+	<script src="../vendors/jquery/dist/jquery.min.js"></script>
+	<script src="../vendors/jquery/dist/jquery.min.js"></script>
+	<script src="../vendors/jquery/dist/jquery.min.js"></script>
 	<!-- Bootstrap -->
 	<script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
 	<!-- FastClick -->
@@ -741,8 +782,19 @@
 				}],
 			series: series
 		};
-		var cc_3066 = echarts.init(document.getElementById('cc_3066'), theme);
-		cc_3066.setOption(option1)
+			var cc_3066 = echarts.init(document.getElementById('cc_3066'), theme);
+		/*cc_3066.setOption(option1);*/	$.get("../lib/js/custom.js").done(function(data) {
+			cc_3066.setOption({
+				xAxis: {
+					data: data.date
+				},
+				series: [{
+					name:'Score',
+					data: data.Q1275007
+				}]
+			})
+		})
+
 	</script>
 	</div>
 </body>
