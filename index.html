@@ -91,20 +91,20 @@
 							</a>
 							</h4>
 															</div>
-															<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+															<div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
 																<div class="custom-controls-stacked">
 																	<label class="custom-control custom-checkbox">
-																		<input type="checkbox" checked class="custom-control-input">
+																		<input type="checkbox" class="custom-control-input" id="ckbx_07">
 																		<span class="custom-control-indicator"></span>
 																		<span class="custom-control-description" data-toggle="tooltip" data-placement="right" title="1275007">Friendly</span>
 																	</label>
 																	<label class="custom-control custom-checkbox">
-																		<input type="checkbox" class="custom-control-input">
+																		<input type="checkbox" class="custom-control-input" id="ckbx_08">
 																		<span class="custom-control-indicator"></span>
 																		<span class="custom-control-description" data-toggle="tooltip" data-placement="right" title="1275008">Efficient</span>
 																	</label>
 																	<label class="custom-control custom-checkbox">
-																		<input type="checkbox" class="custom-control-input">
+																		<input type="checkbox" class="custom-control-input"  id="ckbx_09">
 																		<span class="custom-control-indicator"></span>
 																		<span class="custom-control-description" data-toggle="tooltip" data-placement="right" title="1275009">Knowledgable</span>
 																	</label>
@@ -122,12 +122,12 @@
 															<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 																<div class="custom-controls-stacked">
 																	<label class="custom-control custom-checkbox">
-																		<input type="checkbox" class="custom-control-input">
+																		<input type="checkbox" class="custom-control-input" id="ckbx_10">
 																		<span class="custom-control-indicator"></span>
 																		<span class="custom-control-description" data-toggle="tooltip" data-placement="right" title="1275010">Friendly</span>
 																	</label>
 																	<label class="custom-control custom-checkbox">
-																		<input type="checkbox" class="custom-control-input">
+																		<input type="checkbox" class="custom-control-input" id="ckbx_11">
 																		<span class="custom-control-indicator"></span>
 																		<span class="custom-control-description" data-toggle="tooltip" data-placement="right" title="1275011">Efficient</span>
 																	</label>
@@ -147,19 +147,19 @@
 															<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
 																<div class="custom-controls-stacked">
 																	<label class="custom-control custom-checkbox">
-																		<input type="checkbox" class="custom-control-input">
+																		<input type="checkbox" class="custom-control-input" id="ckbx_13">
 																		<span class="custom-control-indicator"></span>
-																		<span class="custom-control-description" data-toggle="tooltip" data-placement="right" title="1275007">Appearance</span>
+																		<span class="custom-control-description" data-toggle="tooltip" data-placement="right" title="1275013">Appearance</span>
 																	</label>
 																	<label class="custom-control custom-checkbox">
-																		<input type="checkbox" class="custom-control-input">
+																		<input type="checkbox" class="custom-control-input" id="ckbx_14">
 																		<span class="custom-control-indicator"></span>
-																		<span class="custom-control-description" data-toggle="tooltip" data-placement="right" title="1275008">Furniture</span>
+																		<span class="custom-control-description" data-toggle="tooltip" data-placement="right" title="1275014">Furniture</span>
 																	</label>
 																	<label class="custom-control custom-checkbox">
-																		<input type="checkbox" class="custom-control-input">
+																		<input type="checkbox" class="custom-control-input" id="ckbx_15">
 																		<span class="custom-control-indicator"></span>
-																		<span class="custom-control-description" data-toggle="tooltip" data-placement="right" title="1275009">Properly Supplied</span>
+																		<span class="custom-control-description" data-toggle="tooltip" data-placement="right" title="1275015">Properly Supplied</span>
 																	</label>
 																</div>
 															</div>
@@ -290,35 +290,65 @@
 											<fieldset>
 												<legend>Time Frame</legend>
 
-												<div id="btn-group-timeframe" class="btn-group btn-group-sm" data-toggle="buttons">
-													<label class="btn btn-primary active btn-timeframe">
-														<input type="radio" name="options" id="btnDay" autocomplete="off">Day</label>
-													<label class="btn btn-primary btn-timeframe">
-														<input type="radio" name="options" id="btnWeek" autocomplete="off">Week</label>
-													<label class="btn btn-primary btn-timeframe">
-														<input type="radio" name="options" id="btnMonth" autocomplete="off" checked>Month</label>
+												<div id="btn-group-timeframe" class="btn-group btn-group-md" data-toggle="buttons">
+													<label class="btn btn-info disabled btn-timeframe">
+														<input type="radio" name="options" id="btnDay" autocomplete="off">D</label>
+													<label class="btn btn-info disabled btn-timeframe">
+														<input type="radio" name="options" id="btnWeek" autocomplete="off">W</label>
+													<label class="btn btn-info btn-timeframe">
+														<input type="radio" name="options" id="btnMonth" autocomplete="off" checked>M</label>
 												</div>
 
 											</fieldset>
 										</div>
+
 									</div>
+
 								</div>
 							</div>
+
 						</div>
 					</div>
 					<br> </div>
 
 			</div>
 
+
 			<hr>
 
+		</div>
+		</div>
+
+
+
+	</main>
+	<footer class="page-footer bg-primary center-on-small-only">
+
+		<!--Footer Links-->
+		<div class="container-fluid">
+			<div class="row">
+
+				<!--First column-->
+				<div class="col-md-6">
+					<h5 class="title"></h5>
+					<p></p>
+				</div>
+				<!--/.First column-->
+
+				<!--Second column-->
+				<div class="col-md-6">
+					<h5 class="title"></h5>
+					<ul>
+					</ul>
+				</div>
+				<!--/.Second column-->
 			</div>
 		</div>
 		<!--/.Footer Links-->
 		<!--Copyright-->
 		<div class="footer-copyright">
-			<div class="container-fluid"> © 2015 Copyright: <a href="http://www.Digital-Dlchemy.com">© 2016 Digital Alchemy</a>
-				<a href="http://www.freepik.com/free-vector/hotel-white-icons-pack_753727.htm"></a>
+			<div class="container-fluid"><a href="http://www.Digital-Dlchemy.com">© 2016 Digital Alchemy</a>
+
 			</div>
 		</div>
 		<!--/.Copyright-->
@@ -334,7 +364,7 @@
 	<!-- MDB core JavaScript -->
 	<script type="text/javascript" src="../bootstrap-material-design/js/mdb.min.js"></script>
 	<!-- jQuery -->
-	<script src="../vendors/endors/jquery/dist/jquery.min.js"></script>
+	<script src="../vendors/jquery/dist/jquery.min.js"></script>
 	<!-- Bootstrap -->
 	<script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
 	<!-- FastClick -->
@@ -346,20 +376,54 @@
 	<script src="../vendors/echarts/map/js/world.js"></script>
 	<!-- Custom Theme Scripts -->
 	<script src="../lib/js/custom.js"></script>
+	<script src="lib/js/answerSet.js"></script>
 	<!-- Tab Selection Script -->
 	<script>
 		$(function () {
 			$('#myTab a:last').tab('show')
 		})
 	</script>
-	<script>
-		var xAxisData = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
+<script>
+	$.getJSON('../lib/js/dataArray_01.json', function(dataSet) {
+			alert("D Load: " + dataSet.dateSet[0]);
+	});
+
+
+		var P1275007 = [0.87, 0.9, 0.94, 0.96, 0.96, 0.88, 0.9, 0.93, 0.95, 0.95, 0.98, 0.95, 0.92, 0.93, 0.92, 0.97, 0.94, 0.91, 0.94, 0.95, 0.95, 0.91, 0.98, 0.95, 0.92, 0.91, 0.94, 0.98, 0.85, 0.94, 0.91, 0.91, 0.95];
+		var P007_2014 = P1275007.slice(0, 11);
+		var P007_2015 = P1275007.slice(12, 23);
+		var P007_2016 = P1275007.slice(24, 36);
+		var P1275008 = [0.85, 0.9, 0.92, 0.87, 0.93, 0.85, 0.85, 0.89, 0.95, 0.93, 0.96, 0.92, 0.89, 0.93, 0.9, 0.93, 0.92, 0.91, 0.92, 0.95, 0.93, 0.9, 0.98, 0.94, 0.9, 0.89, 0.93, 0.96, 0.88, 0.89, 0.88, 0.88, 0.93];
+		var P008_2014 = P1275008.slice(0, 11);
+		var P008_2015 = P1275008.slice(12, 23);
+		var P008_2016 = P1275008.slice(24, 36);
+
+		var P1275009 = [0.8, 0.86, 0.91, 0.91, 0.93, 0.86, 0.84, 0.9, 0.92, 0.93, 0.96, 0.9, 0.89, 0.9, 0.9, 0.92, 0.9, 0.92, 0.91, 0.93, 0.93, 0.89, 0.98, 0.91, 0.88, 0.86, 0.92, 0.98, 0.9, 0.89, 0.89, 0.86, 0.94];
+		var P1275010 = [0.88, 0.87, 0.88, 0.96, 0.9, 0.86, 0.92, 0.92, 0.96, 0.96, 0.95, 0.95, 0.92, 0.93, 0.94, 0.94, 0.95, 0.93, 0.93, 0.93, 0.95, 0.92, 0.95, 0.91, 0.91, 0.84, 0.91, 0.93, 0.89, 0.94, 0.92, 0.89, 0.95];
+		var P1275011 = [0.82, 0.87, 0.84, 0.91, 0.84, 0.85, 0.89, 0.9, 0.94, 0.95, 0.95, 0.93, 0.9, 0.91, 0.92, 0.91, 0.92, 0.93, 0.93, 0.95, 0.94, 0.91, 0.95, 0.92, 0.9, 0.86, 0.89, 0.93, 0.9, 0.93, 0.87, 0.85, 0.95];
+		var P1275012 = [0.89, 0.89, 0.91, 0.91, 0.83, 0.9, 0.93, 0.92, 0.93, 0.95, 0.97, 0.93, 0.92, 0.91, 0.92, 0.91, 0.94, 0.91, 0.86, 0.9, 0.91, 0.89, 0.96, 0.93, 0.9, 0.88, 0.91, 0.87, 0.84, 0.91, 0.9, 0.89, 0.91];
+		var P1275013 = [0.85, 0.89, 0.93, 0.93, 0.83, 0.89, 0.93, 0.94, 0.94, 0.94, 0.93, 0.91, 0.91, 0.88, 0.93, 0.92, 0.93, 0.93, 0.87, 0.89, 0.92, 0.86, 0.94, 0.9, 0.86, 0.86, 0.82, 0.82, 0.85, 0.92, 0.86, 0.86, 0.87];
+		var P1275014 = [0.78, 0.81, 0.88, 0.88, 0.76, 0.85, 0.88, 0.88, 0.87, 0.84, 0.83, 0.88, 0.82, 0.85, 0.82, 0.9, 0.87, 0.84, 0.81, 0.83, 0.85, 0.86, 0.84, 0.87, 0.85, 0.84, 0.85, 0.93, 0.83, 0.81, 0.85, 0.82, 0.87];
+		var P1275015 = [0.77, 0.79, 0.77, 0.84, 0.72, 0.85, 0.89, 0.86, 0.91, 0.88, 0.97, 0.8, 0.77, 0.82, 0.76, 0.86, 0.84, 0.88, 0.82, 0.85, 0.86, 0.84, 0.9, 0.85, 0.74, 0.76, 0.77, 0.76, 0.76, 0.88, 0.81, 0.77, 0.87];
+		var P1275016 = [0, 0.69, 0.8, 0, 0.64, 0.91, 0.85, 0.87, 0.79, 0.91, 1, 0.7, 0.73, 0.71, 0.76, 0.73, 0.92, 0.75, 0.84, 0.83, 0.75, 0.7, 0, 0.88, 0.64, 0.69, 0.83, 0, 0.53, 0.8, 0.85, 0.86, 0.92];
+		var P1275017 = [0, 0.71, 0.88, 0, 0.9, 0.83, 0.83, 0.86, 0.77, 0.89, 1, 0.73, 0.73, 0.82, 0.72, 0.66, 0.88, 0.61, 0.76, 0.73, 0.64, 0.59, 0, 0.84, 0.68, 0.77, 0.83, 0, 0.7, 0.74, 0.77, 0.79, 0.87];
+		var P1275018 = [0, 0.73, 0.95, 0, 0.75, 0.87, 0.94, 0.89, 0.86, 0.93, 1, 0.77, 0.82, 0.9, 0.87, 0.86, 0.94, 0.75, 0.89, 0.89, 0.71, 0.76, 0, 0.88, 0.7, 0.8, 0.89, 0, 0.6, 0.84, 0.83, 0.83, 0.91];
+		var P1275019 = [0, 0.6, 0.73, 0, 0.8, 0.83, 0.79, 0.8, 0.77, 0.86, 1, 0.73, 0.7, 0.76, 0.74, 0.72, 0.89, 0.75, 0.83, 0.8, 0.76, 0.61, 0, 0.92, 0.66, 0.68, 0.86, 0, 0.47, 0.76, 0.82, 0.79, 0.85];
+		var P1275020 = [0, 0.64, 0.84, 0, 0.8, 0.81, 0.85, 0.86, 0.8, 0.87, 1, 0.67, 0.75, 0.8, 0.72, 0.82, 0.9, 0.7, 0.81, 0.77, 0.73, 0.68, 0, 0.84, 0.63, 0.73, 0.73, 0, 0.6, 0.79, 0.81, 0.83, 0.89];
+		var P1275021 = [0.78, 0.78, 0.9, 0.78, 0.84, 0.85, 0.83, 0.84, 0.87, 0.82, 0.93, 0.78, 0.79, 0.84, 0.79, 0.78, 0.74, 0.81, 0.8, 0.8, 0.74, 0.73, 0.67, 0.85, 0.75, 0.75, 0.75, 0.7, 0.8, 0.84, 0.84, 0.8, 0.88];
+		var P1275022 = [0.78, 0.76, 0.84, 0.83, 0.84, 0.8, 0.85, 0.86, 0.88, 0.85, 0.93, 0.64, 0.76, 0.84, 0.71, 0.75, 0.79, 0.65, 0.72, 0.8, 0.7, 0.67, 0.87, 0.8, 0.76, 0.78, 0.81, 0.7, 0.8, 0.83, 0.84, 0.81, 0.91];
+		var P1275023 = [0.82, 0.82, 0.86, 0.91, 0.85, 0.84, 0.88, 0.9, 0.88, 0.88, 0.93, 0.74, 0.83, 0.88, 0.8, 0.83, 0.79, 0.76, 0.82, 0.85, 0.75, 0.76, 0.93, 0.85, 0.78, 0.78, 0.81, 0.8, 0.8, 0.81, 0.88, 0.82, 0.92];
+		var P1275024 = [0.72, 0.8, 0.84, 0.8, 0.71, 0.8, 0.74, 0.74, 0.8, 0.83, 0.78, 0.72, 0.76, 0.82, 0.8, 0.75, 0.78, 0.77, 0.76, 0.76, 0.71, 0.68, 0.6, 0.84, 0.7, 0.71, 0.75, 0.7, 0.67, 0.74, 0.83, 0.77, 0.82];
+		var P1275025 = [0.74, 0.75, 0.81, 0.82, 0.73, 0.77, 0.81, 0.83, 0.83, 0.85, 0.88, 0.74, 0.74, 0.84, 0.76, 0.73, 0.76, 0.74, 0.75, 0.77, 0.73, 0.57, 0.73, 0.8, 0.69, 0.69, 0.67, 0.6, 0.8, 0.82, 0.79, 0.79, 0.83];
+		var P1275026 = [0.73, 0.7, 1, 1, 0, 0.72, 0.95, 0.91, 0.93, 0.93, 1, 0.8, 0.8, 0.95, 1, 1, 0.93, 0.77, 0.97, 0.78, 0.71, 0.55, 0, 1, 0.92, 0.89, 0.71, 0, 0.8, 0.83, 0.78, 0.87, 1];
+		var P1275027 = [0.76, 0.81, 0.84, 0.83, 0.95, 0.9, 0.84, 0.9, 0.88, 0.84, 0.94, 0.83, 0.87, 0.84, 0.85, 0.87, 0.93, 0.91, 0.79, 0.88, 0.9, 0.84, 0.93, 0.8, 0.82, 0.81, 0.75, 0.91, 0.91, 0.96, 0.92, 0.88, 0.9];
+		var P1275028 = [0.69, 0.8, 0.84, 0.74, 0.95, 0.78, 0.77, 0.87, 0.86, 0.83, 0.86, 0.78, 0.79, 0.83, 0.81, 0.82, 0.93, 0.85, 0.73, 0.85, 0.85, 0.78, 0.87, 0.78, 0.83, 0.8, 0.73, 0.86, 0.91, 0.92, 0.88, 0.76, 0.84];
+		var allDates = ['Jan-2014', 'Feb-2014', 'Mar-2014', 'Apr-2014', 'May-2014', 'Jun-2014', 'Jul-2014', 'Aug-2014', 'Sep-2014', 'Oct-2014', 'Nov-2014', 'Dec-2014', 'Jan-2015', 'Feb-2015', 'Mar-2015', 'Apr-2015', 'May-2015', 'Jun-2015', 'Jul-2015', 'Aug-2015', 'Sep-2015', 'Oct-2015', 'Nov-2015', 'Dec-2015', 'Jan-2016', 'Feb-2016', 'Mar-2016', 'Apr-2016', 'May-2016', 'Jun-2016', 'Jul-2016', 'Aug-2016', 'Sep-2016', 'Oct-2016', 'Nov-2016', 'Dec-2016'];
+		var months = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
+
 		var questionSet = ['1275007', '1275008', '1275009', '1275010', '1275011', '1275012', '1275013', '1275014', '1275015', '1275016', '1275017', '1275018', '1275019', '1275020', '1275021', '1275022', '1275023', '1275024', '1275025', '1275026', '1275027', '1275028'];
 		var theme = {
-			color: [
-				'#BD081C', '#8E1E3A', '#94388D', '#78777A'
-				, '#008B94', '#B5BF35', '#F28A25', '#E75529'
-			],
+			color: ['#008B94', '#B5BF35', '#F28A25', '#E75529', '#BD081C', '#8E1E3A', '#94388D', '#78777A'],
 			title: {
 				itemGap: 8,
 				textStyle: {
@@ -562,45 +626,8 @@
 				fontFamily: 'Arial, Verdana, sans-serif'
 			}
 		};
+
 		var series = [{
-			name: '2012',
-			type: 'line',
-			symbol: 'emptyCircle',
-			symbolSize: 7,
-			smooth: true,
-			itemStyle: {
-				normal: {
-					areaStyle: 'default'
-				}
-			},
-			data: [156276, 121646, 152845, 164111, 154294, 114781, 88005, 150166, 140382, 83946, 48474, 102897],
-			/* markPoint: { data: [{ type: 'max', name: '???' }, { type: 'min', name: '???' }] },*/
-			markLine: {
-				data: [{
-					type: 'average',
-					name: 'mean'
-				}]
-			}
-		}, {
-			name: '2013',
-			type: 'line',
-			symbol: 'emptyCircle',
-			symbolSize: 7,
-			smooth: true,
-			itemStyle: {
-				normal: {
-					areaStyle: 'default'
-				}
-			},
-			data: [134021, 224177, 138657, 134183, 125614, 113056, 128191, 145710, 139410, 124077, 105676, 64572],
-			/* markPoint: { data: [{ type: 'max', name: '???' }, { type: 'min', name: '???' }] },*/
-			markLine: {
-				data: [{
-					type: 'average',
-					name: 'mean'
-				}]
-			}
-		}, {
 			name: '2014',
 			type: 'line',
 			symbol: 'emptyCircle',
@@ -608,17 +635,17 @@
 			smooth: true,
 			itemStyle: {
 				normal: {
-					areaStyle: 'default'
+					//						areaStyle: 'default'
 				}
 			},
-			data: [245863, 233711, 177424, 251041, 31222, 109596, 97883, 131048, 73667, 136476, 70481, 80259],
+			data: P007_2014,
 			/* markPoint: { data: [{ type: 'max', name: '???' }, { type: 'min', name: '???' }] },*/
-			markLine: {
-				data: [{
-					type: 'average',
-					name: 'mean'
-				}]
-			}
+			//				markLine: {
+			//					data: [{
+			//						type: 'average',
+			//						name: 'mean'
+			//				}]
+			//				}
 		}, {
 			name: '2015',
 			type: 'line',
@@ -627,17 +654,17 @@
 			smooth: true,
 			itemStyle: {
 				normal: {
-					areaStyle: 'default'
+					//						areaStyle: 'default'
 				}
 			},
-			data: [212697, 204194, 237429, 145326, 187125, 91176, 105063, 200047, 147694, 133626, 129761, 102891],
+			data: P007_2015,
 			/* markPoint: { data: [{ type: 'max', name: '???' }, { type: 'min', name: '???' }] },*/
-			markLine: {
-				data: [{
-					type: 'average',
-					name: 'mean'
-				}]
-			}
+			//				markLine: {
+			//					data: [{
+			//						type: 'average',
+			//						name: 'mean'
+			//				}]
+			//				}
 		}, {
 			name: '2016',
 			type: 'line',
@@ -646,25 +673,26 @@
 			smooth: true,
 			itemStyle: {
 				normal: {
-					areaStyle: 'default'
+					//						areaStyle: 'default'
 				}
 			},
-			data: [263957, 236424, 352892, 159555, 126698, 137057, 153560, 164034, 102981],
+
+			data: P007_2016,
 			/* markPoint: { data: [{ name: 'sales', value: 182.2, xAxis: 7, yAxis: 183, }, { name: 'purchases', value: 2.3, xAxis: 11, yAxis: 3 }] }, */
-			markLine: {
-				data: [{
-					type: 'average',
-					name: 'mean'
-				}]
-			}
+			//				markLine: {
+			//					data: [{
+			//						type: 'average',
+			//						name: 'mean'
+			//				}]
+			//				}
 		}];
 		var option1 = {
 			title: {
 				text: 'Report: 3066',
-				subtext: ''
+				subtext: 'Question: 1275007'
 			},
 			tooltip: {
-				trigger: 'item',
+				trigger: 'axis',
 				enterable: true
 			},
 			legend: {
@@ -672,7 +700,11 @@
 			},
 			toolbox: {
 				show: true,
-				orient: 'horizontal',
+				z: 6,
+				orient: 'horizontal', // 'vertical'; 'horizontal'
+				x: 'right', // horizontal position. Defaults to center. Valid values are: 'center' | 'left' | 'right' | {number}(x-coordinate, in px).
+				y: 'top',  //  vertical position. Defaults to top. Valid values are: 'top' | 'bottom' | 'center' | {number}(y-coordinate, in px).
+
 				feature: {
 					mark: {
 						show: true
@@ -705,7 +737,7 @@
 						lang: ['Data View', 'Close', 'Refresh'],
 						readOnly: true //Provides abiltiy to change data
 					},
-					magicmagicmagicmagicmagicType: {
+					magicType: {
 						show: true,
 						title: {
 							line: 'Line',
@@ -725,24 +757,26 @@
 					}
 				}
 			},
+			calculable: true,
 			dataZoom: {
-				show: true,
+				show: false,
 				realtime: true,
 				start: 0,
 				end: 100
 			},
-			calculable: true,
+
 			xAxis: [{
 				type: 'category',
-				data: xAxisData
+				data: months
 				}],
 			yAxis: [{
 				type: 'value'
 				}],
 			series: series
 		};
+
 		var cc_3066 = echarts.init(document.getElementById('cc_3066'), theme);
-		cc_3066.setOption(option1)
+		cc_3066.setOption(option1);
 	</script>
 	</div>
 </body>
